@@ -7,9 +7,9 @@
 </head>
 <body>
 	<div class="hero" id="hero">
-		<h1>Hoja de vida</h1>
+		<!-- <h1>Hoja de vida</h1>
         <h2>Miguel Angel Garcia Agudelo</h2>
-		<p>HTML • CSS </p>
+		<p>HTML • CSS </p> -->
 	</div>
 
 	<nav id="menu">
@@ -17,7 +17,10 @@
 		<a href="#1">Estudios</a>
 		<a href="#2">Certificados</a>
 		<a href="#3">Experiencia laboral</a>
-        <a href="#4">Referencias</a>
+        <a href="#4">Proyectos</a>
+        <a href="#5">Referencias</a>
+        <a href="#6"><img src="./images/contactame.jpg" alt="ImagenContact" class="imagen-redonda-contact"></a>
+
 		<span class="indicador" id="indicador"></span>
 	</nav>
 	<div class="secciones">
@@ -183,7 +186,29 @@
 			</div>
 		</div>
 
-		<div class="seccion" id="4">
+        <div class="seccion" id="4">
+			<div class="card">
+				<h1>Proyectos</h1>
+				<img src="images/proyectos.jpg" alt="ImagenProyectos" class="imagen-redonda">
+                <h3>Automatización de proceso de generacion de cartas de fin de contrato</h3>
+                <p>Se automatizo por completo el proceso de consulta de informacion de los empleados, para la generacion de cartas de terminacion de contrato y su posterior envio.</p>
+                <p>Este proceso se llevo a cabo con flujos de power automate conectados con power apps los cuales se encargaban de llenar dinamicamente las cartas con los datos del empleado, desde power apps se pueden consultar, generar y enviar las cartas</p>
+                <p>Este proceso tambien necesito de la creacion de un RPA hecho con UIPath el cual realizaba la navegacion por una pagina web, ingresaba los datos del empleado y hacia una descarga de documentos para posteriormente descomprimir los datos descargados y almacenarlos en sharepoint.</p>
+                <hr>
+                <br>
+                <br>
+                <h3>Aplicacion Movil de notas</h3>
+                <p>Aplicacion para la creacion, actualizacion, visualizacion y borrado de notas.</p>
+                <p>Esta aplicacion fue hecha en android studio usando Java, el usuario puede registrarse y su usuario y notas almacenadas se guardan en firebase en tiempo real.</p>
+                <hr>
+                <br>
+                <br>
+                <h3>Pagina web con carrito de compras</h3>
+                <p>Pagina web con registro de usuarios almacenados en tiempo real en Firebase, posterior a su registro se puede ingresar al centro de articulos donde se pueden agregar o eliminar articulos en un carrito de compras.</p>
+            </div>
+		</div>
+
+		<div class="seccion" id="5">
 			<div class="card">
 				<h1>Referencias</h1>
 				<img src="img/4.jpg" alt="">
@@ -222,10 +247,29 @@
                 </ul>
 			</div>
 		</div>
+
+        <div class="seccion" id="6">
+			<div class="card">
+                <h1>Contactame</h1>
+                <a href= "https://www.instagram.com/miguel._.1314?igsh=YTVjamZwYXBhcmZt">
+                    <img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white" alt="Instagram" class="a-contactame">
+                </a>
+                <a href="garciaagudelomiguelangel@gmail.com" >
+                    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" class="a-contactame">
+                  </a>
+                  <a href="https://www.linkedin.com/in/miguel-angel-garcia-agudelo/" >
+                    <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="Linkedin" class="a-contactame">
+                  </a>
+                  <hr>
+                  <br>
+                  <p>Gmail: garciaagudelomiguelangel@gmail.com </p>
+                  
+            </div>
+		</div>
         <div class="footer">
             <div class="card">
                 <h2> Realizada por: </h2>
-                <p><pre> Miguel Angel garcia Agudelo </pre></p>
+                <p> Miguel Angel garcia Agudelo </p>
             </div>
         </div>
 	</div>

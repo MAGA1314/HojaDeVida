@@ -25,6 +25,15 @@ a {
 	margin-right: auto;
 	display: block;
   }
+  .imagen-redonda-contact {
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	object-fit: cover;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+  }
 
 .hero {
 	display: flex;
@@ -32,7 +41,7 @@ a {
 	align-items: center;
 	justify-content: center;
 	height: calc(100vh - 80px);
-	background-image: url("./Images/hero.jpg");
+	background-image: url("./Images/Tarjeta\ de\ presentacion\ Miguel.png");
 	background-size:cover ;
     background-position: center;
 }
@@ -178,14 +187,22 @@ li{
 	color: #494949;
 	font-size: 20px;
 }
+.a-contactame {
+	width: 200px; /* Define el ancho que desees */
+	height: 50px; /* Define la altura que desees */
+	display: inline-block; /* Asegura que el enlace se comporte como un bloque */
+	text-align: center; /* Centra el contenido (opcional) */
+	line-height: 50px; /* Alinea verticalmente el contenido (opcional) */
+  }
 .footer{
-	background:#6441a5 ;
-	height: 80px;
-	box-shadow: rgba(250, 3, 188, 0.2) 0px 8px 24px;
-	display: flex;
-	position: sticky;
-	top: 0;
-	overflow: hidden;
+	background: #6441a5;
+    height: 80px;
+    box-shadow: rgba(250, 3, 188, 0.2) 0px 8px 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    width: 100%;
 }
 
 @media screen and (max-width: 800px) {
