@@ -188,11 +188,11 @@ li{
 	font-size: 20px;
 }
 .a-contactame {
-	width: 200px; /* Define el ancho que desees */
-	height: 50px; /* Define la altura que desees */
-	display: inline-block; /* Asegura que el enlace se comporte como un bloque */
-	text-align: center; /* Centra el contenido (opcional) */
-	line-height: 50px; /* Alinea verticalmente el contenido (opcional) */
+	width: 200px; 
+	height: 50px; 
+	display: inline-block;
+	text-align: center; 
+	line-height: 50px; 
   }
 .footer{
 	background: #6441a5;
@@ -203,6 +203,27 @@ li{
     align-items: center;
     bottom: 0;
     width: 100%;
+}
+
+/* Estilos del botón */
+#btnTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #6441a5;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    display: none; /* Oculto al inicio */
+}
+
+#btnTop:hover {
+    background: #6441a5;
 }
 
 @media screen and (max-width: 800px) {

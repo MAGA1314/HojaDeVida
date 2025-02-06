@@ -3,15 +3,12 @@
 <head>
 	<meta charset="UTF-8" /> <!-- Identificador del lenguaje que va a reconocer -->
     <link rel="stylesheet" href="style.css"/> <!-- stylesheet = plantilla de estilo(llama el css), -->
+    <script src="script.js"></script>
     <title> Mi web :)</title> <!-- Titulo de la pestaña -->
 </head>
 <body>
-	<div class="hero" id="hero">
-		<!-- <h1>Hoja de vida</h1>
-        <h2>Miguel Angel Garcia Agudelo</h2>
-		<p>HTML • CSS </p> -->
-	</div>
-
+	<div class="hero" id="hero"></div>
+    <!-- Menu en la barra navegar -->
 	<nav id="menu">
         <a href="#0">Sobre mi</a>
 		<a href="#1">Estudios</a>
@@ -23,6 +20,7 @@
 
 		<span class="indicador" id="indicador"></span>
 	</nav>
+    <!-- slidebar -->
 	<div class="secciones">
         <div class="slidebar">
             <div><img src="./Images/Habilidades.png" alt="Imagen" class="imagen-redonda"></div>
@@ -69,6 +67,7 @@
             <p></p>
             <br>
         </div>
+        <!-- Seccion 1 | Sobre mi -->
         <div class="seccion" id="0">
 			<div class="card">
                 <h1>Sobre mi</h1>
@@ -95,6 +94,7 @@
 			</div>
 		</div>
 
+        <!-- Seccion 2 | Certificados -->
 		<div class="seccion" id="2">
 			<div class="card">
 				<h1>Certificados</h1>
@@ -147,6 +147,7 @@
 			</div>
 		</div>
 
+        <!-- Seccion 3 | Experiencia laboral -->
 		<div class="seccion" id="3">
 			<div class="card">
 				<h1>Experiencia laboral</h1>
@@ -186,6 +187,7 @@
 			</div>
 		</div>
 
+        <!-- Seccion 4 | Proyectos -->
         <div class="seccion" id="4">
 			<div class="card">
 				<h1>Proyectos</h1>
@@ -208,6 +210,7 @@
             </div>
 		</div>
 
+        <!-- Seccion 5 | Referencias -->
 		<div class="seccion" id="5">
 			<div class="card">
 				<h1>Referencias</h1>
@@ -248,6 +251,7 @@
 			</div>
 		</div>
 
+        <!-- Seccion 6 | Contactame -->
         <div class="seccion" id="6">
 			<div class="card">
                 <h1>Contactame</h1>
@@ -266,12 +270,15 @@
                   
             </div>
 		</div>
+        
+        <!-- Footer -->
         <div class="footer">
             <div class="card">
                 <h2> Realizada por: </h2>
                 <p> Miguel Angel garcia Agudelo </p>
             </div>
         </div>
+        <button id="btnTop" onclick="scrollToTop()">⬆</button>
 	</div>
 </body>
 </html>
